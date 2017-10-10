@@ -1,0 +1,33 @@
+Final command: 
+find output -type f -name '*.png' 2> /dev/null -exec expr {} : '[^/]*/\(.*\)' \; | xargs -i compare ref/{} output/{} compare/{}
+
+Kurze Demo, was wir tun wollen:
+compare ref/oberkela/obama_swapped.png output/oberkela/obama_swapped.png compare/oberkela/obama_swapped.png
+-> Aber mit allen Bildern in den Ordnern (compare ist ein ImageMagick Command)
+
+Beginn:
+find output
+-> alle Dateien und Ornder im Folder "output"
+
+Wir wollen nur Files, keine Ordner
+find output -type f
+
+Wir wollen nur png Files
+find output -type f -name '*.png'
+
+Redirecten des nervigen Permission Denied Errors
+find output -type f -name '*.png' 2> /dev/null
+(2> redirected den stderr)
+
+Etwas mit diesem Output machen (rote Schrift)
+find output -type f -name '*.png' 2> /dev/null -exec echo -e "\e[1;31m{}\e[0m" \;
+
+Die Ausgabe von Output wegschneiden (regex)
+find output -type f -name '*.png' 2> /dev/null -exec expr {} : '[^/]*/\(.*\)' \;
+
+xargs, um die Funde als Argumente von compare verwenden zu können
+xargs wandelt den stdin in eine Liste von Argumenten um
+find output -type f -name '*.png' 2> /dev/null -exec expr {} : '[^/]*/\(.*\)' \; | xargs echo {}
+
+compare mit diesem Argument aufrufen (final) :
+find output -type f -name '*.png' 2> /dev/null -exec expr {} : '[^/]*/\(.*\)' \; | xargs -i compare ref/{} output/{} compare/{}
