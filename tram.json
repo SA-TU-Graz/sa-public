@@ -1,0 +1,3997 @@
+[
+  {
+    "type": "relation",
+    "id": 23294,
+    "tags": {
+      "alternate": "no",
+      "from": "Eggenberg/UKH",
+      "name": "Tram 1: Eggenberg/UKH => Mariatrost",
+      "public_transport:version": "2",
+      "ref": "1",
+      "route": "tram",
+      "to": "Mariatrost",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 263294584,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610766,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3706661396,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610774,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3773371257,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610789,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3773391205,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610763,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3773391223,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610788,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3774786125,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610796,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3775066819,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3646556823,
+        "role": ""
+      },
+      {
+        "type": "node",
+        "ref": 3775124671,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610785,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3600600972,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485789,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3776268113,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485803,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776297176,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288698713,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 27496023,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3776473070,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485810,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776650701,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485832,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779240819,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287363824,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779284501,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287354769,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779284504,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 747169494,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779367113,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772620819,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779367115,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765294005,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 224487120,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3783099884,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772620810,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3783099885,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288769795,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3783150586,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772620813,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3785867786,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 741158209,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988243685,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772620822,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988243689,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 764078272,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988250122,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772629268,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 224426987,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772629247,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 27678736,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772629259,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988253507,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772629262,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 86096405,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772629269,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988256778,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772629248,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 86096406,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772629263,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 224426955,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 269251964,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 27010,
+    "tags": {
+      "alternate": "no",
+      "from": "Wetzelsdorf",
+      "name": "Tram 7: Wetzelsdorf => LKH Med Uni/Klinikum Nord",
+      "operator": "Holding Graz Linien",
+      "public_transport:version": "2",
+      "ref": "7",
+      "route": "tram",
+      "to": "LKH Med Uni/Klinikum Nord",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 263297988,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765316656,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786145169,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610781,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786145171,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610794,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786145166,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610782,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786145164,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610779,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786145173,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 737995217,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786145168,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 760398986,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786169608,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 1342342889,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786182850,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610754,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3775124671,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610785,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3600600972,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3776268113,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485803,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776297176,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288698713,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 27496023,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3776473070,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485810,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776650701,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485832,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779240819,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287363824,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779284501,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287354769,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779284504,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 747169494,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779367113,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772620819,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779367115,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765294005,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 224487120,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3783099884,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772620810,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786248903,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 728903875,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 4334411954,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 474361252,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 4334411179,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3779502079,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 27176,
+    "tags": {
+      "alternate": "no",
+      "from": "Andritz",
+      "name": "Tram 5: Andritz => Puntigam",
+      "public_transport:version": "2",
+      "ref": "5",
+      "route": "tram",
+      "to": "Puntigam",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 263494159,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 732107561,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3797003117,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221957,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 732107556,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990161,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 707416606,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989565,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288769777,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990168,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288769780,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989567,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221953,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989571,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222054,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989569,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 764078123,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990163,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222063,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990165,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221972,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776650701,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485832,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792483414,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287363819,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1987615143,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221861,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1987615148,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221896,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988326852,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222009,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1989353323,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 747860842,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1989353321,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 747860845,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796677875,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773531363,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796677872,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773531357,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796707817,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773531365,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1989402357,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 289079711,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 255890220,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773531364,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 263847234,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773531369,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1989393784,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765316636,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35668970,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765316642,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 4123992755,
+        "role": ""
+      },
+      {
+        "type": "node",
+        "ref": 4123992756,
+        "role": ""
+      },
+      {
+        "type": "node",
+        "ref": 3499080404,
+        "role": ""
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 27194,
+    "tags": {
+      "alternate": "no",
+      "from": "Andritz",
+      "name": "Tram 4: Andritz => Liebenau",
+      "public_transport:version": "2",
+      "ref": "4",
+      "route": "tram",
+      "to": "Liebenau",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 263494159,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 732107561,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3797003117,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221957,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 732107556,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990161,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 707416606,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989565,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288769777,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990168,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288769780,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989567,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221953,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989571,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222054,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989569,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 764078123,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990163,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222063,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990165,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221972,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776650701,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485832,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792483414,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287363819,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1987615143,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221861,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1987615148,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221896,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988326852,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222009,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35213275,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221898,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988330100,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222073,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792704709,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 767932252,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792704707,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221988,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792705978,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 373103068,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792757583,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221908,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35124994,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 35124341,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792757584,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221900,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35124921,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765316651,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 27222,
+    "tags": {
+      "alternate": "no",
+      "from": "Laudongasse",
+      "name": "Tram 3: Laudongasse => Krenngasse",
+      "public_transport:version": "2",
+      "ref": "3",
+      "route": "tram",
+      "to": "Krenngasse",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 1988392666,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3731882731,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3775066819,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3646556823,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3775124671,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610785,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3600600972,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3776268113,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485803,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776297176,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288698713,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 27496023,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3776473070,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485810,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776650701,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485832,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779240818,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 1252315681,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788770639,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485794,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788770643,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772508340,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788771047,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772508337,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788821576,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772508339,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788821638,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 754168300,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 263871426,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 336250703,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 27223,
+    "tags": {
+      "alternate": "no",
+      "from": "Laudongasse",
+      "name": "Tram 6: Laudongasse => Sankt Peter",
+      "public_transport:version": "2",
+      "ref": "6",
+      "route": "tram",
+      "to": "Sankt Peter",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 1988392666,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3731882731,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3775066819,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3646556823,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3775124671,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610785,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3600600972,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3776268113,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485803,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776297176,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288698713,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 27496023,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3776473070,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485810,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776650701,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485832,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779240818,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 1252315681,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788770641,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485788,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3789022116,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485797,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3789040347,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485792,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3789048232,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485800,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3789094988,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765890412,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792398981,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765294012,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988305290,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485814,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792398978,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485801,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792398982,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485786,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 274088293,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 771480219,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 27226,
+    "tags": {
+      "alternate": "no",
+      "from": "Jakominiplatz",
+      "name": "Tram 26: Jakominiplatz => St. Peter",
+      "public_transport:version": "2",
+      "ref": "26",
+      "route": "tram",
+      "to": "St. Peter",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 3792453303,
+        "role": "stop_entry_only"
+      },
+      {
+        "type": "node",
+        "ref": 287363814,
+        "role": "platform_entry_only"
+      },
+      {
+        "type": "node",
+        "ref": 3788770641,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485788,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3789022116,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485797,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3789040347,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485792,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3789048232,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485800,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3789094988,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765890412,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792398981,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765294012,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988305290,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485814,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792398978,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485801,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792398982,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485786,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 274088293,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 771480219,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 27229,
+    "tags": {
+      "alternate": "no",
+      "from": "Liebenau",
+      "name": "Tram 13: Liebenau/Murpark => Krenngasse",
+      "operator": "Graz Linien",
+      "public_transport:version": "2",
+      "ref": "13",
+      "route": "tram",
+      "to": "Krenngasse",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 35124921,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765316651,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35124930,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222014,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35124994,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222060,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35248974,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221866,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792705979,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 373103063,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792704708,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221948,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792704710,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 767932251,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792667874,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221968,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792667937,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221942,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792609521,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222033,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792618922,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221986,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792609520,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221875,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792453303,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287363814,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788770639,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485794,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788770643,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772508340,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788771047,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772508337,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788821576,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772508339,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788821638,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 754168300,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 263871426,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 336250703,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 962028,
+    "tags": {
+      "alternate": "no",
+      "from": "Sankt Peter",
+      "name": "Tram 6: Sankt Peter => Laudongasse",
+      "public_transport:version": "2",
+      "ref": "6",
+      "route": "tram",
+      "to": "Laudongasse",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 274088293,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 771480219,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792398983,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485823,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792398979,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485796,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792398980,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485798,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792297258,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765294007,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3789094989,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765890418,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3789048233,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485806,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3789040348,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485804,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788981507,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485835,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788947039,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485805,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779240820,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287363823,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776650702,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485802,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776473071,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485790,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776297177,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288698715,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776268114,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485813,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 2031511649,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3775124670,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610773,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3646556825,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3646556824,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988392666,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3731882731,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 962057,
+    "tags": {
+      "alternate": "no",
+      "from": "Krenngasse",
+      "name": "Tram 3: Krenngasse => Laudongasse",
+      "public_transport:version": "2",
+      "ref": "3",
+      "route": "tram",
+      "to": "Laudongasse",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 263871426,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 336250703,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788821637,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 754168328,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788821577,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772508338,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788771048,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772508335,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788770642,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772508341,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788770640,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485799,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779240820,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287363823,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776650702,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485802,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776473071,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485790,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776297177,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288698715,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776268114,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485813,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 2031511649,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3775124670,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610773,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3646556825,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3646556824,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988392666,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3731882731,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 962919,
+    "tags": {
+      "alternate": "no",
+      "from": "Mariatrost",
+      "name": "Tram 1: Mariatrost => Eggenberg/UKH",
+      "public_transport:version": "2",
+      "ref": "1",
+      "route": "tram",
+      "to": "Eggenberg/UKH",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 224426955,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 269251964,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 86096406,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772629265,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 224426899,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772629266,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 772629261,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 1296415754,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 224426845,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772629255,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 27678736,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772629264,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1939536728,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772629272,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 772629253,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772629249,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988243679,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 764078280,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 772620817,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772620809,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3785867785,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772620820,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3783150587,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772620821,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3783099886,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288769794,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3783099883,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772620812,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779367116,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765294009,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779367114,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772620818,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779284503,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 747169496,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779284500,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287354771,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779240820,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287363823,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776650702,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485802,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776473071,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485790,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776297177,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288698715,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776268114,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485813,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 2031511649,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3775124670,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610773,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3646556825,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3646556824,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3774786126,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3646556827,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3774786266,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610798,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3773391204,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610778,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3773371258,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610765,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3706661395,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610753,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 263294584,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610766,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 962994,
+    "tags": {
+      "alternate": "no",
+      "from": "Liebenau",
+      "name": "Tram 4: Liebenau => Andritz",
+      "public_transport:version": "2",
+      "ref": "4",
+      "route": "tram",
+      "to": "Andritz",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 35124921,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765316651,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35124930,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222014,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35124994,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222060,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35248974,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221866,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792705979,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 373103063,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792704708,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221948,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792704710,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 767932251,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792667874,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221968,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792667937,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221942,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792609521,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222033,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792618922,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221986,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792609520,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221875,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792483415,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287363820,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776650702,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485802,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990166,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221919,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990164,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222041,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989570,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 764078142,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989572,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222049,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989568,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221904,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990167,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288769781,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989566,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 1988450227,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990162,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 707416601,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989573,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3796989574,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 732107615,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988746235,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221962,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 263494159,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 732107561,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 963683,
+    "tags": {
+      "alternate": "no",
+      "from": "Puntigam",
+      "name": "Tram 5: Puntigam => Andritz",
+      "public_transport:version": "2",
+      "ref": "5",
+      "route": "tram",
+      "to": "Andritz",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 35668970,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765316642,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35668985,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765316641,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1989399524,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773531366,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 255890220,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773531360,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 263847743,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 760652678,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796677874,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773531356,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796677871,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773531352,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796677876,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773531368,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 4193598920,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 4123992754,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1251827221,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 747860823,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1251827273,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 747860822,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792609521,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222033,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792618922,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221986,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792609520,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221875,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792483415,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287363820,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776650702,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485802,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990166,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221919,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990164,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222041,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989570,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 764078142,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989572,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222049,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989568,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221904,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990167,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288769781,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989566,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 1988450227,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796990162,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 707416601,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3796989573,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3796989574,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 732107615,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988746235,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221962,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 263494159,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 732107561,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 963721,
+    "tags": {
+      "alternate": "no",
+      "from": "St. Peter",
+      "name": "Tram 26: St. Peter => Jakominiplatz",
+      "public_transport:version": "2",
+      "ref": "26",
+      "route": "tram",
+      "to": "Jakominiplatz",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 274088293,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 771480219,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792398983,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485823,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792398979,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485796,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792398980,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485798,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792297258,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765294007,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3789094989,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765890418,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3789048233,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485806,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3789040348,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485804,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788981507,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485835,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788947039,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485805,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792453302,
+        "role": "stop_exit_only"
+      },
+      {
+        "type": "node",
+        "ref": 287363815,
+        "role": "platform_exit_only"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 963722,
+    "tags": {
+      "alternate": "no",
+      "from": "Krenngasse",
+      "name": "Tram 13: Krenngasse => Liebenau",
+      "public_transport:version": "2",
+      "ref": "13",
+      "route": "tram",
+      "to": "Liebenau",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 263871426,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 336250703,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788821637,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 754168328,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788821577,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772508338,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788771048,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772508335,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788770642,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772508341,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3788770640,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485799,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792453302,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287363815,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1987615143,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221861,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1987615148,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221896,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988326852,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222009,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35213275,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221898,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988330100,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222073,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792704709,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 767932252,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792704707,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221988,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792705978,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 373103068,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792757583,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221908,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35124994,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 35124341,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792757584,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221900,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35124921,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765316651,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 5438321,
+    "tags": {
+      "alternate": "no",
+      "from": "Jakominiplatz",
+      "name": "Tram 13: Jakominiplatz => Liebenau",
+      "public_transport:version": "2",
+      "ref": "13",
+      "route": "tram",
+      "to": "Liebenau",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 3792453302,
+        "role": "stop_entry_only"
+      },
+      {
+        "type": "node",
+        "ref": 287363815,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1987615143,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221861,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1987615148,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221896,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988326852,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222009,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35213275,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221898,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 1988330100,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222073,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792704709,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 767932252,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792704707,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221988,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792705978,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 373103068,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792757583,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221908,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35124994,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 35124341,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792757584,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221900,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35124921,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765316651,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 5438322,
+    "tags": {
+      "alternate": "no",
+      "from": "Liebenau",
+      "name": "Tram 13: Liebenau => Jakominiplatz",
+      "public_transport:version": "2",
+      "ref": "13",
+      "route": "tram",
+      "to": "Jakominiplatz",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 35124921,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765316651,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35124930,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222014,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35124994,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222060,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 35248974,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221866,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792705979,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 373103063,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792704708,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221948,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792704710,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 767932251,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792667874,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221968,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792667937,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221942,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792609521,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773222033,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792618922,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221986,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792609520,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 773221875,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3792453303,
+        "role": "stop_exit_only"
+      },
+      {
+        "type": "node",
+        "ref": 287363814,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "type": "relation",
+    "id": 6458029,
+    "tags": {
+      "alternate": "no",
+      "from": "LKH Med Uni/Klinikum Nord",
+      "name": "Tram 7: LKH Med Uni/Klinikum Nord => Wetzelsdorf",
+      "public_transport:version": "2",
+      "ref": "7",
+      "route": "tram",
+      "to": "Wetzelsdorf",
+      "type": "route"
+    },
+    "members": [
+      {
+        "type": "node",
+        "ref": 4334411179,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3779502079,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 4334411952,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 4334411953,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786248902,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 728903866,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3783099883,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772620812,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779367116,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765294009,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779367114,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772620818,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779284503,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 747169496,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779284500,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287354771,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3779240820,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287363823,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776650702,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485802,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776473071,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485790,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776297177,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 288698715,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3776268114,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772485813,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 2031511649,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3775124670,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610773,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786182849,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610764,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786169609,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610784,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786169610,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 287845886,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786145174,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 737995212,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786145165,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610791,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786145167,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610772,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 3786145172,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610783,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 772610762,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 3786145170,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 772610776,
+        "role": "platform"
+      },
+      {
+        "type": "node",
+        "ref": 263297988,
+        "role": "stop"
+      },
+      {
+        "type": "node",
+        "ref": 765316656,
+        "role": "platform"
+      }
+    ]
+  }
+]
