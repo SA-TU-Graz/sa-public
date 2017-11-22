@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+<div id="TOC">
+<ul>
+<li><a href="#docker-tutorial">Docker Tutorial</a><ul>
+<li><a href="#what-is-docker">What is docker?</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#basics">Basics</a></li>
+<li><a href="#cleanup">Cleanup</a></li>
+</ul></li>
+</ul>
+</div>
+<h1 id="docker-tutorial">Docker Tutorial</h1>
+<p>Software Architecture VO/KU</p>
+<p>706.706/706.707 WS17/18</p>
+<p>Jan Schlacher (j.schlacher@student.tugraz.at)</p>
+<h2 id="what-is-docker">What is docker?</h2>
+<p>Docker is a pioneer of the containerization platform. From a 1000 foot perspective it's like a VM but without the OS kernel overhead in your virtual machines.</p>
+<blockquote>
+<p>A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings. (<a href="https://www.docker.com/what-container">Source</a>)</p>
+</blockquote>
+<h2 id="installation">Installation</h2>
+<p>To install the docker daemon go to their <a href="https://www.docker.com">website</a> and download the binary for your OS.</p>
+<h2 id="basics">Basics</h2>
+<p>Use the <code>images</code> command to list all your local available images:</p>
+<pre><code>$ docker images
+REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE</code></pre>
+<p>To download an image from the internet, you can either use the <code>pull</code> command or the <code>run</code> command. If the image isn't available the <code>run</code> command will download the image automatically.</p>
+<pre><code>$ docker pull postgres
+// or
+$ docker run postgres</code></pre>
+<p>If you need to access a port on your container, you need to map it to your local network via the <code>-p</code> parameter of the <code>run</code> command. The format is either <code>-P</code> to make all ports of the container available and map them to the same port number or <code>-p hostPort:containerPort</code>.</p>
+<pre><code>$ docker run -p 5000:5432 postgres</code></pre>
+<p>To start a container in detached mode instead of foreground mode, we use the <code>-d</code> option.</p>
+<pre><code>$ docker run -d -name awesome-db postgres
+e6028e5b65ba...
+$ docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
+e6028e5b65ba        82b06f064259        &quot;docker-entrypoint...&quot;   43 minutes ago      Up 44 minutes       0.0.0.0:5432-&gt;5432/tcp   awesome-db
+$ docker stop e
+// or
+$ docker stop awesome-db</code></pre>
+<p>To be able to preserve the container storage you can use docker volumes, that way don't need to care if the container gets deleted. As long as the volume exists, the storage will be saved. That way we can remove the container each time it gets stopped and when we start it again, we just need to map it to the correct volume again.</p>
+<pre><code>$ docker volume create awesome-project-db
+$ docker run --rm -v awesome-project-db:/var/lib/postgresql/data postgres</code></pre>
+<p>To list all your existing volumes use the <code>docker volume ls</code> command.</p>
+<h2 id="cleanup">Cleanup</h2>
+<p>Sometimes you end up with a lot of images you might not use anymore. Then you can run the following commands to clean all the images and stopped containers:</p>
+<pre><code>$ docker rm $(docker ps -a -q)
+$ docker rmi $(docker images --filter dangling=true -q)</code></pre>
+<p>The first command will remove all containers and the second command will remove all images that aren't used anymore. Make sure that all of your containers are stopped before typing this commands.</p>
+</body>
+</html>

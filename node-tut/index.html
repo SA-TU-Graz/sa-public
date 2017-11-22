@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+<div id="TOC">
+<ul>
+<li><a href="#node.js-tutorial">Node.js Tutorial</a><ul>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#basics">Basics</a><ul>
+<li><a href="#packages">Packages</a></li>
+<li><a href="#simple-web-server">Simple Web Server</a></li>
+<li><a href="#module-system">Module system</a></li>
+</ul></li>
+<li><a href="#example-project-static-web-application">Example project (static web application)</a><ul>
+<li><a href="#setup">Setup</a></li>
+<li><a href="#putting-it-all-together">Putting it all together</a></li>
+</ul></li>
+<li><a href="#further-readings">Further readings</a></li>
+</ul></li>
+</ul>
+</div>
+<h1 id="node.js-tutorial">Node.js Tutorial</h1>
+<p>Software Architecture VO/KU</p>
+<p>706.706/706.707 WS17/18</p>
+<p>Jan Schlacher (j.schlacher@student.tugraz.at)</p>
+<h2 id="installation">Installation</h2>
+<p>To install node.js on your local machine I would recommend using <a href="https://github.com/creationix/nvm">nvm</a> (node version manager). With nvm you are able to quickly install other node.js versions without conflicts. But it's also fine if you just download the latest binary from the node.js <a href="https://nodejs.org/en/">website</a>.</p>
+<h2 id="basics">Basics</h2>
+<p>To verify if node is installed correctly just type <code>node</code> in you command line to start teh interactive node shell.</p>
+<pre><code>$ node
+&gt; console.log(&quot;Hello World!&quot;);
+Hello World!
+undefined
+&gt;</code></pre>
+<p>To initialize a new project in a directory you need to run <code>npm init</code> in the desired project directory. Although it's not mandatory, it makes collaboration a <strong>LOT</strong> easier! This command will generate a so called <code>package.json</code> file, which is the local project configuration point. Within this configuration file you may define a project name, description, author, version, scripts, dependencies and <a href="https://docs.npmjs.com/files/package.json">more</a>.</p>
+<h3 id="packages">Packages</h3>
+<p>To stop rewriting the same code again and again, nodejs has a simple package system to import external libraries. You're able to install those packages via the official nodejs package manager (<code>npm</code>) which comes automatically with your nodejs installation. Alternatively you can use <code>yarn</code> by Facebook. <code>yarn</code> caches your packages locally so the package installation process is faster and you don't need a internet connection at all if you've installed a package before and it's still in the yarn cache.</p>
+<p>Basically you have two options to install a package: either install it globally, so you are able to use it in every project with the same package version, or install it directly in the project directory, so you are able to use different versions of a package within different projects.</p>
+<p>Usually you choose to install only command line tools globally (like <a href="https://github.com/sindresorhus/is-up-cli">is-up-cli</a> or <a href="https://github.com/sgentle/caniuse-cmd">caniuse-cmd</a>). Otherwise the installed package will not be marked as a dependency in your <code>package.json</code> file.</p>
+<p>To install a package and mark it as a dependency you need to run <code>npm install --save express</code>, whereas express could be any other package.</p>
+<p>I highly recommend using the <code>--save</code> option all the time, because that way your team members will only need to clone the repository project, or pull it again and just need to type <code>npm install</code> to install or update all your defined dependencies.</p>
+<p>As I mentioned before <code>yarn</code> is another way to install your packages, to install it you'll just need to follow their installation instructions on their <a href="https://yarnpkg.com/en/docs/install#mac-tab">website</a>. If you have node already installed with <code>npm</code>, you could even install <code>yarn</code> via this command <code>npm install --global yarn</code>.</p>
+<p>One advantage of <code>yarn</code> is, that it will automatically generate a <code>yarn.lock</code> file, which stores the exact installed package version within your project. That way all your team members will have the exact same version of the project dependencies (although with <code>npm</code> 5 and beyond you'll get a <code>package-lock.json</code> file by default (<a href="https://docs.npmjs.com/files/package-lock.json">npm-documentation</a>)). Also you don't have to use the <code>--save</code> option any more. When you install a package with yarn (<code>yarn add express</code>) it will append the newly installed dependency by default in your <code>package.json</code> file.</p>
+<p>My typical workflow when initializing a new project is the following:</p>
+<pre><code>$ mkdir awesome-project
+$ cd awesome-project
+$ yarn init -y
+yarn init v0.27.5
+warning The yes flag has been set. This will automatically answer yes to all questions which may have security implications.
+success Saved package.json
+Done in 0.08s.
+$ git init
+Initialized empty Git repository in /Users/jan/Documents/Temp/awesome-projects/.git/
+$ echo &quot;node_modules/&quot; &gt; .gitignore
+$ mkdir src
+$ touch src/index.js</code></pre>
+<h3 id="simple-web-server">Simple Web Server</h3>
+<p>Not like PHP, nodejs doesn't need an external web server like Apache. Nodejs provide you with a low level http package (written in C++) to create a web server yourself.</p>
+<pre><code>var http = require(&quot;http&quot;);
+
+var server = http.createServer(function(req, res) {
+  res.writeHead(200);
+  res.end(&quot;Hello World!&quot;);
+});
+
+server.listen(3000);</code></pre>
+<p>To test this service you can either open your browser and goto <code>http://localhost:3000/</code> or just use <code>curl</code>/<code>wget</code> from your console like this <code>curl localhost:3000</code>. Now you should get <code>Hello World!</code> as a response.</p>
+<p>With this simplistic approach you would need to do url parsing and body parsing yourself. As this is a repetitive task, packages like <a href="http://expressjs.com"><code>express</code></a> are quite popular.</p>
+<h3 id="module-system">Module system</h3>
+<p>To split your project code into multiple files, you'll need to use node's module system. In this short scenario we are going to have 2 files, namely <code>index.js</code> and <code>common.js</code>.</p>
+<pre><code>// index.js
+var common = require(&quot;./common&quot;);
+
+console.log(common.add(1, 2));</code></pre>
+<pre><code>// common.js
+module.exports = { };
+
+module.exports.add = function(a, b) {
+  return a + b;
+}
+
+/*
+ * If we want to use ES2015, which is possible (99%) in
+ * node 6.12 and beyond you could use arrow functions:
+ * 
+ * module.exports = { };
+ * module.exports.add = (a, b) =&gt; a + b;
+ */</code></pre>
+<p>Note the difference in the require parameter. Before we just needed to use the package name directly. Now we need to give node a system path, whereas <code>./common</code> translates to search in the directory of the file you are currently in (<code>index.js</code>) for a file named <code>common</code> with the extension <code>js</code>.</p>
+<h2 id="example-project-static-web-application">Example project (static web application)</h2>
+<p>To show how a node.js project could look like, we are going to create a simple todo application. You can view the source code for this project at our <a href="https://github.com/SA-TU-Graz/sa-public/nodejs-tutorial/awesome-project">Github repository</a>.</p>
+<h3 id="setup">Setup</h3>
+<p>First we'll need to create a new docker volume and start a new postgres database image:</p>
+<pre><code>$ docker volume create awesome-project-db
+$ docker run -e POSTGRES_PASSWORD=mysecretpassword --rm -d -p 5432:5432 -v awesome-project-db:/var/lib/postgresql/data postgres</code></pre>
+<p>Now we'll create our project structure:</p>
+<pre><code>$ mkdir awesome-project
+$ cd awesome-project
+$ yarn init -y
+$ yarn install pg express mustache body-parser
+$ mkdir src
+$ touch src/index.js</code></pre>
+<h4 id="setup-database-connection">Setup database connection</h4>
+<p>To make sure everything is setup correctly, we'll connect to the database via a node program and select something.</p>
+<pre><code>// src/index1.js
+const { Client } = require(&quot;pg&quot;);
+const client = new Client({
+  user: &quot;postgres&quot;,
+  host: &quot;localhost&quot;,
+  database: &quot;postgres&quot;,
+  password: &quot;mysecretpassword&quot;,
+  port: 5432
+});
+
+client.connect()
+  .then(() =&gt; {
+    return client.query(&quot;SELECT $1::text as message&quot;, [&quot;Hello World!&quot;]);
+  })
+  .then(res =&gt; {
+    console.log(res.rows[0].message);
+    client.end();
+  })
+  .catch(err =&gt; {
+    console.error(err.stack);
+  });</code></pre>
+<h4 id="setup-template-engine-via-mustache">Setup template engine via mustache</h4>
+<p>For injecting values into our html pages we'll use mustache. With mustache we are able to define templates of our pages and then load the templates and render the values into it. The following example shows a simple template which gets rendered then.</p>
+<pre><code>// src/index2.js
+const mustache = require(&quot;mustache&quot;);
+
+const template = `
+&lt;div&gt;
+  {{name}}
+
+  &lt;ul&gt;
+  {{#todos}}
+    &lt;li&gt;{{title}}&lt;/li&gt;
+  {{/todos}}
+  &lt;/ul&gt;
+&lt;/div&gt;
+`;
+
+const data = {
+  name: &quot;Pippi&quot;,
+  todos: [
+    { title: &quot;Buy milk&quot; }
+  ]
+};
+
+const output = mustache.render(template, data);
+
+console.log(output);</code></pre>
+<p>When we execute this script we should get the following:</p>
+<pre><code>$ node src/index2.js
+
+&lt;div&gt;
+  Pippi
+
+  &lt;ul&gt;
+    &lt;li&gt;Buy milk&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre>
+<h3 id="putting-it-all-together">Putting it all together</h3>
+<p>Now we are able to put everything we learned together and create a simple todo application. We will split this app into 3 files:</p>
+<ul>
+<li><code>index.js</code>: Connects to the database and creates the database scheme and creates the express application.</li>
+<li><code>router.js</code>: Defines all our endpoints and servers/renders the templates.</li>
+<li><code>database.js</code>: Will create a new database instance and exports it to access the same database object in all our files via a require (Singleton).</li>
+</ul>
+<pre><code>// src/index.js
+const express = require(&quot;express&quot;);
+const bodyParser = require(&quot;body-parser&quot;);
+
+const client = require(&quot;./database&quot;);
+const router = require(&quot;./router&quot;);
+
+// Init database
+client.connect()
+  .then(() =&gt; {
+    client.query(`
+        CREATE TABLE IF NOT EXISTS todos (
+          id SERIAL PRIMARY KEY,
+          title VARCHAR(100) NOT NULL,
+          done BOOLEAN DEFAULT FALSE
+        )
+      `);
+  })
+  .catch(err =&gt; {
+    console.error(err.stack);
+  });
+
+// Init api
+const app = express();
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+router(app);
+
+app.listen(3000);</code></pre>
+<pre><code>// src/database.js
+const { Client } = require(&quot;pg&quot;);
+
+module.exports = new Client({
+  user: &quot;postgres&quot;,
+  host: &quot;localhost&quot;,
+  database: &quot;postgres&quot;,
+  password: &quot;mysecretpassword&quot;,
+  port: 5432
+});</code></pre>
+<pre><code>// src/router.js
+const fs = require(&quot;fs&quot;);
+const path = require(&quot;path&quot;);
+const mustache = require(&quot;mustache&quot;);
+
+const client = require(&quot;./database&quot;);
+
+const template_dir = path.join(__dirname, &quot;templates&quot;);
+
+function getTemplate(template, data) {
+  return new Promise((resolve, reject) =&gt; {
+    fs.readFile(path.join(template_dir, template), (err, data) =&gt; {
+      if (err) reject(err);
+      resolve(data.toString());
+    });
+  });
+}
+
+function sendTemplate(res, template, data) {
+  getTemplate(template, data)
+    .then(page =&gt; {
+      res.send(mustache.render(page, data));
+    })
+    .catch(err =&gt; res.status(500).send(err.stack));
+}
+
+module.exports = (app) =&gt; {
+  app.get(&quot;/&quot;, (req, res) =&gt; {
+    sendTemplate(res, &quot;home.html&quot;, {});
+  });
+
+  app.get(&quot;/todos&quot;, (req, res) =&gt; {
+    client.query(&quot;SELECT * FROM todos&quot;)
+      .then(result =&gt; {
+        sendTemplate(res, &quot;todos.html&quot;, { todos: result.rows });
+      });
+  });
+
+  app.get(&quot;/todo/add&quot;, (req, res) =&gt; {
+    sendTemplate(res, &quot;add-todo.html&quot;, {});
+  });
+
+  app.post(&quot;/todo/add&quot;, (req, res) =&gt; {
+    client.query(&quot;INSERT INTO todos (title) VALUES ($1)&quot;, [ req.body.title ])
+      .then(result =&gt; {
+        sendTemplate(res, &quot;add-todo.html&quot;, {});
+      })
+      .catch(err =&gt; res.status(500).send(err.stack));
+  });
+};</code></pre>
+<h2 id="further-readings">Further readings</h2>
+<ul>
+<li><a href="https://devhints.io/es6">ES2015 cheatsheet</a></li>
+<li><a href="https://babeljs.io">Babeljs (JavaScript &gt;= ES2015 to JavaScript &lt; 2015 compiler, to support &gt;= ES2015 in browsers)</a></li>
+<li><a href="https://flow.org">Flow (Static type checking in JavaScript)</a></li>
+<li><a href="https://reactjs.org">React</a></li>
+<li><a href="https://angular.io">Angular</a></li>
+<li><a href="http://graphql.org">GraphQL (REST alternative)</a></li>
+<li><a href="https://facebook.github.io/react-native/">React-Native</a></li>
+</ul>
+</body>
+</html>
