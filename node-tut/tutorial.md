@@ -113,7 +113,7 @@ module.exports.add = function(a, b) {
 /*
  * If we want to use ES2015, which is possible (99%) in
  * node 6.12 and beyond you could use arrow functions:
- * 
+ *
  * module.exports = { };
  * module.exports.add = (a, b) => a + b;
  */
@@ -125,7 +125,7 @@ Now we need to give node a system path, whereas `./common` translates to search 
 ## Example project (static web application)
 
 To show how a node.js project could look like, we are going to create a simple todo application.
-You can view the source code for this project at our [Github repository](https://github.com/SA-TU-Graz/sa-public/nodejs-tutorial/awesome-project).
+You can view the source code for this project at our [Github repository](https://github.com/SA-TU-Graz/sa-public/tree/master/node-tut/awesome-project).
 
 ### Setup
 

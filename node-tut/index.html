@@ -89,13 +89,13 @@ module.exports.add = function(a, b) {
 /*
  * If we want to use ES2015, which is possible (99%) in
  * node 6.12 and beyond you could use arrow functions:
- * 
+ *
  * module.exports = { };
  * module.exports.add = (a, b) =&gt; a + b;
  */</code></pre>
 <p>Note the difference in the require parameter. Before we just needed to use the package name directly. Now we need to give node a system path, whereas <code>./common</code> translates to search in the directory of the file you are currently in (<code>index.js</code>) for a file named <code>common</code> with the extension <code>js</code>.</p>
 <h2 id="example-project-static-web-application">Example project (static web application)</h2>
-<p>To show how a node.js project could look like, we are going to create a simple todo application. You can view the source code for this project at our <a href="https://github.com/SA-TU-Graz/sa-public/nodejs-tutorial/awesome-project">Github repository</a>.</p>
+<p>To show how a node.js project could look like, we are going to create a simple todo application. You can view the source code for this project at our <a href="https://github.com/SA-TU-Graz/sa-public/tree/master/node-tut/awesome-project">Github repository</a>.</p>
 <h3 id="setup">Setup</h3>
 <p>First we'll need to create a new docker volume and start a new postgres database image:</p>
 <pre><code>$ docker volume create awesome-project-db
