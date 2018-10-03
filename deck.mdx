@@ -1,0 +1,185 @@
+import { Head } from 'mdx-deck'
+
+export { yellow as theme } from 'mdx-deck/themes'
+
+<Head>
+  <title>Software Architecture KU</title>
+</Head>
+
+# Software Architecture KU
+
+## 706.707 - WS 2018/2019
+
+Roman Kern<br />
+Frederic Linn<br />
+Jan Schlacher<br />
+
+---
+
+## Overview
+
+* Deadlines and dates
+* Practicals
+* Groups
+* Submissions
+* Tasks
+
+---
+
+## Deadlines and dates
+
+| | |
+|--|--|
+| Introduction | October 3th |
+| Group registration | November 1st 23:59 |
+| Command line & Docker tutorial | October 17th |
+| Deadline assignment 1, 2 & 3 | December 2nd 23:59 |
+| Submission Interviews | December 6th - 7th |
+| Deadline assignment 4 | January 6th 23:59 |
+| Submission Interviews | January 10th - 11th |
+
+---
+
+## Practicals
+
+* 4 Assignments
+* Groups of 4 students
+
+### Grading scheme
+| | |
+|--|--|
+| 0-40 | 5 |
+| 41-50 | 4 |
+| 51-60 | 3 |
+| 61-70 | 2 |
+| 71-80 | 1 |
+
+---
+
+## Groups
+
+Group registration
+* <https://tinyurl.com/sa2018-group-registration>
+* Deadline: November 1st 23:59
+* Group number in confirmation mail after registration
+
+Finding your group members
+* Newsgroup: tu-graz.lv.sa
+* Emergency cases: sa-tugraz@gmail.com
+
+
+---
+
+## Submission
+
+* Submissions via SVN
+* Create a repository in TUG Online
+
+Repository name format
+
+* sa\_2018\_[group_number] (e.g. sa2018\_03)
+* Remember the leading zero!
+
+Add the tutors as readers (Bedienstete)
+
+* frederic.linn@student.tugraz.at
+* j.schlacher@student.tugraz.at
+
+---
+
+## Submission directory structure
+
+Create a directory for each task
+
+* task1
+* task2
+* task3
+* task4
+
+---
+
+## Submission Interviews
+
+* 2 submission interviews
+* Presence is mandatory
+* Bring your own devices to present your results
+* Practical questions
+* Point deductions affect the WHOLE group
+
+---
+
+## Assignments
+
+* Shop finder around points of interest
+* Implement different architectures
+
+Tasks
+
+* Task 1: Pipeline architecture (Unix command line)
+* Task 2: Monolithic desktop application
+* Task 3: Conceptual architecture sketch for task 4
+* Task 4: Web application
+
+---
+
+## Task 1 (Unix command line)
+
+* Filter osm-dataset for shops in Graz
+* Put the results in a database (e.g. postgres)
+* Creation of database is part of your pipeline
+* Mandatory use of '|' or '<', '>' operators
+* You may use external scripts to create the database
+* 10 points
+
+```
+cat /proc/cpuinfo | grep -A 5 -B 5 MHz | grep 'core id'
+```
+
+---
+
+## Task 2 (Monolithic desktop application)
+
+* Standalone desktop application
+* 25 points
+
+Requirements
+* Browse and filter shops by category and name around a point of interest
+* Save a search for later as a favourite by name (e.g. "Essen am Jakominiplatz")
+* Edit/delete an existing favourite
+* Add/edit/delete shops
+
+---
+
+## Task 3 (Conceptual sketch)
+
+* Create a conceptual sketch depicting planned microservice architecture for task 4
+* Submit as an A4 pdf with a maximum of 2 pages
+* At least 3 microservices
+* Add a short description of your sketch
+* 5 points
+
+---
+
+## Task 4 (Web application)
+
+* Reimplement the desktop application from task 2 as a web application
+* Use docker to create microservices
+
+Requirements
+
+* All requirements of task 2
+* At least 3 docker images
+* Create a database queue
+* Dynamic requirements (choose requirements from a list totalling at least 10 points)
+* We need to be able to run your solution
+
+---
+
+# Questions?
+
+---
+
+# Thanks!
+
+<http://kti.tugraz.at/staff/rkern/courses/sa/><br />
+<https://github.com/sa-public>
