@@ -1,0 +1,30 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:10
+    volumes:
+      - /Users/jan/my_db/data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=iswuascht
+      - POSTGRES_DB=my_db
+  client:
+    image: demo:client
+    build:
+      context: ./client
+  server:
+    image: demo:server
+    build:
+      context: ./server
+    links:
+      - postgres
+    depends_on:
+      - "postgres"
+  proxy:
+    image: demo:proxy
+    build:
+      context: ./proxy
+    links:
+      - client
+      - server
+    ports:
+      - "3000:80"
