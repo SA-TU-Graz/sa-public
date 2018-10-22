@@ -1,0 +1,157 @@
+import { Head } from 'mdx-deck'
+
+export { yellow as theme } from 'mdx-deck/themes'
+
+<Head>
+  <title>Unix Pipeline</title>
+</Head>
+
+# Unix Pipeline
+
+## Software Architecture KU 2018/2019
+
+Frederic Linn<br />
+
+---
+
+## Overview
+
+* Introduction
+* Syntax
+* Warmup + Demo
+* Prospect
+
+---
+
+## Introduction
+
+* integrated by Douglas McIlroy (1970s)
+* key aspect of the 'UNIX philosophy'
+* modular vs. monolithic
+
+---
+
+## Introduction cont'd
+
+* output of program one<br />
+-> input program two
+* chaining inputs / outputs<br />
+-> pipeline of specialised programs
+* text as common interface
+
+---
+
+## Advantages
+
+* one component excels at one task
+* easy to (ex)change some part of the pipeline
+* covers many use cases
+
+---
+
+## Disadvantages
+
+* parsing overhead -> performance hit
+* exchange relies heavily upon conventions
+* no meta information, just text stream
+
+---
+
+## Syntax
+
+**|** : redirect stdout to stdin<br /> 
+**>** : write contents of stdout to file<br />
+**<** : use contents of file as stdin<br />
+```
+$ cat /proc/cpuinfo | grep "model name" | head -n 1 > myCPU.txt
+```
+---
+
+## Anatomy of a command
+
+```$ ls -a -1 Documents```<br />
+
+* **ls**: command name<br />
+* **-a**, **-1**: flags (or switches)<br />
+* **Documents**: argument<br /> 
+
+---
+
+## RTFM
+
+* $ man <*command*>
+* $ <*command*> -h
+* ($ <*command*> --help)
+
+---
+
+## Warm Up: Top Trump
+* Most current kernel version:<br />
+
+```$ uname -r```
+
+---
+## Warm Up cont'd
+* Highest number of CPU cores:<br />
+
+```$ cat /proc/cpuinfo | grep "cores"```
+
+---
+
+## Warm Up cont'd
+* Longest uptime:<br />
+```$ cat /proc/uptime```<br />
+```$ echo "<sec> / 60 / 60 / 24" | bc```
+---
+## Demo time
+
+* Parse contents of working directory into
+CSV-File:
+
+```Pos|Size|Mod.Date|Mod.Time|Filename|```
+
+---
+
+## Final command
+```
+$ ls -pGghS | grep -v "/" |
+sed -r 's/.{13}//' | tail +2 |
+sed 's/\\. /./g' | nl -n ln |
+tr -s '[:blank:]' '|'
+```
+---
+
+![Linuxpro](typing2.gif)
+
+---
+
+## More practical approach
+
+```$ find . -fprintf myf1l3z.csv "%s|%CY-%Cm-%Cd|%CH:%CM|%f\\n"```
+
+---
+
+## Prospect
+
+* scripting capabilities
+* more powerful cl-tools (e.g. awk)
+* modern version of cl-tools (e.g. ripgrep)
+
+---
+
+## Resources
+
+* [CL-Cheatsheet (Grazer Linuxtage)](https://github.com/linuxtage/commands-cheatsheet/blob/master/cheatsheet.pdf)
+* [Unix Pipeline (Brian Kernighan, Videolink)](https://www.youtube.com/watch?v=bKzonnwoR2I)
+* [Learning the Shell (William E. Shotts)](http://linuxcommand.org/lc3_learning_the_shell.php)
+
+---
+
+# Questions?
+
+---
+
+# Thanks!
+
+<http://kti.tugraz.at/staff/rkern/courses/sa/><br />
+<https://github.com/SA-TU-Graz/sa-public>
